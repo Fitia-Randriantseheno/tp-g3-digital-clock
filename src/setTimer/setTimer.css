@@ -1,0 +1,50 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #040405;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #fb61dab4;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /*
+  Dans la classe qui définit ce membre, Dans les classes qui dérivent de 
+  la classe considérée, Et dans toutes les classes (et les types) 
+  définies dans le même package que celle qui définit le membre protégé.
+  */
+
+  /*
+  Une méthode statique appartient à une classe et une méthode non statique 
+  appartient à un objet d'une classe. Les méthodes statiques sont utiles si 
+  vous n'utilisez qu'une seule fois la méthode et que vous n'avez pas besoin 
+  de plusieurs objets.*/
